@@ -1,0 +1,50 @@
+THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
+
+
+-------System Info-------
+Operating System Name: Darwin
+Nodename: Anirudhs-MacBook-Pro-2.local
+Release: 23.0.0
+Version: Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103
+
+-------Python and Package Versions------- 
+Python Version: 3.10.13
+SigProfilerPlotting Version: 1.3.18
+SigProfilerMatrixGenerator Version: 1.2.22
+SigProfilerAssignment Version: 0.1.0
+Pandas version: 1.5.3
+Numpy version: 1.24.3
+
+--------------EXECUTION PARAMETERS--------------
+INPUT DATA
+	input_type: matrix
+	output: /Users/anirudh/Desktop/acb_challenge/Cosmic3.4_inbuiltDB
+	samples: <class 'pandas.core.frame.DataFrame'>
+	reference_genome: GRCh37
+	context_types: 96
+	exome: False
+COSMIC MATCH
+	cosmic_version: 3.4
+	nnls_add_penalty: 0.05
+	nnls_remove_penalty: 0.01
+	initial_remove_penalty: 0.05
+	de_novo_fit_penalty: 0.02
+	export_probabilities: False
+	collapse_to_SBS96: True
+	denovo_refit_option: False
+	decompose_fit_option: False
+	cosmic_fit_option: True
+
+-------Analysis Progress------- 
+[2024-01-24 16:59:03] Analysis started: 
+
+ Assigning COSMIC sigs or Signature Database ...... 
+ Finished Cosmic fitting! 
+Execution time:0:00:00.594574
+
+[2024-01-24 16:59:04] Analysis ended: 
+
+-------Job Status------- 
+Assignment of mutational signatures completed successfully! 
+Total execution time: 0:00:00 
+Results can be found in:  /Users/anirudh/Desktop/acb_challenge/Cosmic3.4_inbuiltDB  folder
